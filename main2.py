@@ -2,9 +2,9 @@ import streamlit as st
 
 st.title("Body Mass Index")
 
-H = float(st.text_input("ENTER YOUR HEIGHT    :"))
+H = int(st.text_input("ENTER YOUR HEIGHT    :",0))
 
-W = int(st.text_input("ENTER YOUR WEIGHT    :"))
+W = int(st.text_input("ENTER YOUR WEIGHT    :",0))
 
 BODY_MASS = st.button("Click here to fine BODY MASS INDEX")
 
