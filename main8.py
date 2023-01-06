@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from geopy.geocoders import Nominatim
-st.title("MAPS OF INDIA")
+st.title("MAPS OF THE WORLD")
 
 Cities = st.text_input("Which City or State do you wanna find")
 submit = st.button("Click here to navigate")
